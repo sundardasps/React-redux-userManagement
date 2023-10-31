@@ -51,7 +51,6 @@ const userLogin = async (req, res) => {
     const { email, password } = req.body;
     const exist = await User.findOne({email:email});
     
-    console.log(email,exist,'gggggggggggggggggggg')
     if (exist) {
       const compared = await bcrypty.compare(password, exist.password);
       if (compared) {

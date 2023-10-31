@@ -26,7 +26,7 @@ const userslice =  createSlice({
             state.id='';
             state.name='';
             state.mobile='';
-            state.image='';
+            state.image='   ';
             state.email='';
 
         }

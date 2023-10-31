@@ -41,7 +41,6 @@ export default function Header() {
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-       
       >
       
        <Link  to={localStorage.getItem('token') ?'/profile':'/login'} className="flex items-center">Profile</Link> 

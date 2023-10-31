@@ -62,7 +62,6 @@ import { setUserDetails } from "../../../Redux/UserSlice/UserSlice";
             <Button onClick={handleImage}>Submit</Button>
           </div>
         </CardFooter>
-    
     </Card>
     </div>
     );
